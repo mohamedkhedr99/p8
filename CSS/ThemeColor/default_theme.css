@@ -1,0 +1,15 @@
+.HomeSection .navbar-expand-lg .Arabic a,
+.HomeSection .HomeArticle .Child button {
+  background: #20c1f4;
+  border: 2px solid #20c1f4; }
+.HomeSection .navbar-expand-lg .navbar-brand i,
+.HomeSection .navbar-expand-lg .navbar-nav .nav-item .nav-link:hover,
+.HomeSection .HomeArticle .Child h1 span,
+.HomeSection .HomeArticle .Child button:hover,
+.HomeSection .navbar-expand-lg .Arabic a:hover,
+.AboutUs header h1 strong,
+.AboutUs article .text h3 strong,
+.Services header h1 strong {
+  color: #20c1f4; }
+.AboutUs article p:nth-of-type(2) {
+  border-left: 3px solid #20c1f4; }

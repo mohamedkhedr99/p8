@@ -1,0 +1,963 @@
+.HomeSection .HomeArticle .Child button,
+.Portfoliosection .Buttons ul li,
+.get-touch article .send-message form button {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  width: 147px;
+  padding: 7px 0px;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.HomeSection .HomeArticle .Child button:hover,
+.Portfoliosection .Buttons ul li:hover,
+.get-touch article .send-message form button:hover {
+  background: transparent;
+}
+
+.HomeSection {
+  background: url("../IMGS/bg.jpg") center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.HomeSection .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.HomeSection .HomeParent {
+  position: absolute;
+  z-index: 9999;
+}
+.HomeSection .navbar-expand-lg .navbar-brand img {
+  width: 85px;
+}
+.HomeSection .navbar-expand-lg .navbar-brand i {
+  padding: 5px;
+  float: right;
+}
+.HomeSection .navbar-expand-lg .navbar-toggler {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0);
+}
+.HomeSection .navbar-expand-lg .navbar-toggler i {
+  color: #fff;
+  font-size: 25px;
+}
+.HomeSection .navbar-expand-lg .navbar-nav {
+  padding: 5px 0px;
+}
+.HomeSection .navbar-expand-lg .navbar-nav .nav-item {
+  margin-right: 18px;
+}
+.HomeSection .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.HomeSection .navbar-expand-lg .Arabic a {
+  color: #fff;
+  padding: 5px 15px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.HomeSection .navbar-expand-lg .Arabic a:hover {
+  background: transparent;
+}
+.HomeSection .Part {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(51, 51, 51, 0.5);
+}
+.HomeSection .HomeArticle {
+  display: flex;
+  align-items: center;
+}
+.HomeSection .HomeArticle .Child {
+  color: #fff;
+}
+.HomeSection .HomeArticle .Child h4 {
+  font-size: 50px;
+  font-weight: 300;
+}
+.HomeSection .HomeArticle .Child h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 63px;
+  line-height: 85px;
+}
+.HomeSection .HomeArticle .Child p {
+  font-family: "Abel", sans-serif;
+  font-size: 19px;
+}
+.HomeSection .HomeArticle .Child button {
+  margin-top: 20px;
+}
+
+.AboutUs {
+  margin-bottom: 50px;
+}
+.AboutUs header h1 {
+  font-weight: 300;
+  margin: 50px 0px;
+}
+.AboutUs header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 152px;
+  height: 2px;
+  margin: 8px auto;
+}
+.AboutUs article p {
+  font-family: "Abel", sans-serif;
+  font-size: 19px;
+  text-align: left;
+  /**First Direction**/
+}
+.AboutUs article p:nth-of-type(2) {
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 40px 0px;
+}
+.AboutUs article .col-md-4 {
+  padding-right: 0;
+}
+.AboutUs article .Parent {
+  margin-bottom: 20px;
+  display: flex;
+}
+.AboutUs article .Parent .text {
+  line-height: 15px;
+  text-align: left;
+  /**Second Direction**/
+}
+.AboutUs article .Parent .text p {
+  font-size: 16px;
+}
+@media (min-width: 992px) and (max-width: 1131px) {
+  .AboutUs article .Parent .text p {
+    font-size: 14px;
+  }
+}
+.AboutUs article .Parent .IMg img {
+  width: 80%;
+}
+.AboutUs article .AboutImg img {
+  width: 100%;
+}
+
+.Services {
+  background-color: #fafafa;
+  padding: 40px 0px;
+}
+.Services header {
+  padding: 40px 0px;
+}
+.Services header h1 {
+  font-weight: 300;
+}
+.Services header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 152px;
+  height: 2px;
+  margin: 8px auto;
+}
+.Services .ServicesOption .Option1 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option1 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option1 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option1 .Detail1 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option1 .Detail1 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option1 .Detail1 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option1:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option1:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option1:hover span i {
+  color: #fff;
+}
+.Services .ServicesOption .Option2 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option2 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option2 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option2 .Detail2 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option2 .Detail2 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option2 .Detail2 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option2:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option2:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option2:hover span i {
+  color: #fff;
+}
+.Services .ServicesOption .Option3 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option3 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option3 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option3 .Detail3 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option3 .Detail3 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option3 .Detail3 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option3:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option3:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option3:hover span i {
+  color: #fff;
+}
+.Services .ServicesOption .Option4 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option4 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option4 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option4 .Detail4 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option4 .Detail4 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option4 .Detail4 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option4:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option4:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option4:hover span i {
+  color: #fff;
+}
+.Services .ServicesOption .Option5 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option5 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option5 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option5 .Detail5 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option5 .Detail5 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option5 .Detail5 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option5:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option5:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option5:hover span i {
+  color: #fff;
+}
+.Services .ServicesOption .Option6 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option6 span {
+  color: #2196f3;
+  background: #fff;
+  padding: 17px 19px;
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option6 span i {
+  font-size: 20px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.Services .ServicesOption .Option6 .Detail6 {
+  background: #fff;
+  padding: 25px 14px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option6 .Detail6 h4 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0px;
+}
+.Services .ServicesOption .Option6 .Detail6 p {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.Services .ServicesOption .Option6:hover {
+  border-bottom: 5px solid #00e2ff;
+  cursor: pointer;
+}
+.Services .ServicesOption .Option6:hover span {
+  background: #2196f3;
+  -webkit-box-shadow: 2px 4px 12px #b6b1b1;
+  -moz-box-shadow: 2px 4px 12px #b6b1b1;
+  -o-box-shadow: 2px 4px 12px #b6b1b1;
+  -ms-box-shadow: 2px 4px 12px #b6b1b1;
+  box-shadow: 2px 4px 12px #b6b1b1;
+}
+.Services .ServicesOption .Option6:hover span i {
+  color: #fff;
+}
+.Services .UI {
+  margin-top: 20px;
+}
+.Services .UI h1 {
+  color: #2196f3;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Services .UI h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Services .UI p {
+  font-family: "Abel", sans-serif;
+  font-size: 19px;
+}
+.Services .UX {
+  margin-top: 20px;
+}
+.Services .UX h1 {
+  color: #2196f3;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Services .UX h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Services .UX p {
+  font-family: "Abel", sans-serif;
+  font-size: 19px;
+}
+
+.Portfoliosection {
+  padding: 40px 0px;
+}
+.Portfoliosection header {
+  padding: 40px 0px;
+}
+.Portfoliosection header h1 {
+  font-weight: 300;
+  font-weight: 300;
+}
+.Portfoliosection header h1 strong {
+  color: #2196f3;
+}
+.Portfoliosection header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 235px;
+  height: 2px;
+  margin: 8px auto;
+}
+.Portfoliosection .Buttons ul {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Portfoliosection .Buttons ul .active {
+  background: #2196f3;
+  color: #fff;
+}
+.Portfoliosection .Buttons ul li {
+  margin-bottom: 15px;
+  background: transparent;
+  color: #2196f3;
+  border: 2px solid #2196f3;
+  margin: 10px;
+}
+@media (max-width: 363px) {
+  .Portfoliosection .Buttons ul li {
+    margin: 10px auto;
+    width: 60%;
+  }
+}
+.Portfoliosection .Buttons ul li:hover {
+  color: #fff;
+  background: #2196f3;
+}
+.Portfoliosection .IMGS img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.TeamSection header {
+  padding: 40px 0px;
+}
+.TeamSection header h1 {
+  font-weight: 300;
+}
+.TeamSection header h1 strong {
+  color: #2196f3;
+}
+.TeamSection header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 235px;
+  height: 2px;
+  margin: 8px auto;
+}
+.TeamSection article .owl-carousel .item {
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.TeamSection article .owl-carousel .item .ItemHover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(51, 51, 51, 0.5);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  line-height: 7px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.Reviews {
+  background: url("../IMGS/bg2.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  margin: 50px 0;
+}
+.Reviews .Overlay {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px 0;
+}
+.Reviews .Overlay header {
+  padding: 40px 0px;
+}
+.Reviews .Overlay header h1 {
+  font-weight: 300;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.Reviews .Overlay header h1 strong {
+  color: #2196f3;
+}
+.Reviews .Overlay header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 325px;
+  height: 2px;
+  margin: 8px auto;
+}
+.Reviews .Overlay article .item p {
+  background: #fff;
+  padding: 20px 20px 35px 20px;
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 89%,
+    21% 90%,
+    20% 100%,
+    12% 90%,
+    0 90%
+  );
+  -moz-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 89%,
+    21% 90%,
+    20% 100%,
+    12% 90%,
+    0 90%
+  );
+  -o-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 89%,
+    21% 90%,
+    20% 100%,
+    12% 90%,
+    0 90%
+  );
+  -ms-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 89%,
+    21% 90%,
+    20% 100%,
+    12% 90%,
+    0 90%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 89%,
+    21% 90%,
+    20% 100%,
+    12% 90%,
+    0 90%
+  );
+}
+.Reviews .Overlay article .item .item-content {
+  display: flex;
+}
+.Reviews .Overlay article .item .item-content .item-img {
+  width: 90px;
+  margin: 0 15px;
+}
+.Reviews .Overlay article .item .item-content .item-img img {
+  border-radius: 50%;
+}
+.Reviews .Overlay article .item .item-content .item-text {
+  color: #fff;
+  margin: 10px 15px;
+}
+.Reviews .Overlay article .item .item-content .item-text span:last-of-type {
+  color: #2196f3;
+}
+
+.Subscripe {
+  background: url("../IMGS/faces.jpg") fixed;
+  margin: 50px 0;
+}
+.Subscripe .Overlay {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px 0;
+}
+.Subscripe .Overlay header {
+  padding-bottom: 30px;
+}
+.Subscripe .Overlay header h1 {
+  font-weight: 300;
+  color: #fff;
+}
+.Subscripe .Overlay header h1 strong {
+  color: #2196f3;
+}
+.Subscripe .Overlay header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 325px;
+  height: 2px;
+  margin: 8px auto;
+}
+.Subscripe .Overlay article {
+  color: #fff;
+}
+.Subscripe .Overlay article form {
+  margin-top: 10px;
+}
+.Subscripe .Overlay article form .input-group input {
+  color: #2196f3;
+  border-radius: 20px 0 0 20px;
+  height: 45px;
+}
+.Subscripe .Overlay article form .input-group button {
+  border-radius: 0 20px 20px 0;
+  background: #2196f3;
+  color: #fff;
+  border: 2px solid #2196f3;
+}
+
+.get-touch {
+  padding: 20px 0px;
+}
+.get-touch header {
+  padding-bottom: 20px;
+}
+.get-touch header h1 {
+  font-weight: 300;
+}
+.get-touch header h1:after {
+  content: "";
+  display: block;
+  background: #2196f3;
+  width: 152px;
+  height: 2px;
+  margin: 8px auto;
+}
+.get-touch header h1 strong {
+  color: #2196f3;
+}
+.get-touch article .send-message {
+  border-radius: 20px;
+  box-shadow: 5px 4px 10px #a0a0a073;
+  padding: 20px;
+}
+.get-touch article .send-message h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2196f3;
+}
+.get-touch article .send-message p {
+  font-family: "Abel", sans-serif;
+}
+.get-touch article .send-message form {
+  font-family: "Abel", sans-serif;
+}
+.get-touch article .send-message form input,
+.get-touch article .send-message form textarea {
+  color: #2196f3;
+  border-radius: 20px;
+  border: 2px solid;
+}
+.get-touch article .send-message form button {
+  background: #2196f3;
+  border: 2px solid #2196f3;
+}
+.get-touch article .send-message form button:hover {
+  color: #2196f3;
+}
+.get-touch article .contact-info {
+  background: #2196f3;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+}
+.get-touch article .contact-info h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.get-touch article .contact-info p {
+  font-family: "Abel", sans-serif;
+}
+.get-touch article .contact-info article p span {
+  margin: 0 20px;
+}
+.get-touch article .contact-info article p span a {
+  color: #fff;
+}
+.get-touch article .contact-info article div {
+  margin: 36px 0;
+}
+.get-touch article .contact-info article div ul li {
+  display: inline-block;
+}
+.get-touch article .contact-info article div ul li a {
+  color: #fff;
+  margin: 0 4px;
+  font-size: 22px;
+}
+
+/** Start The Scroll Top **/
+.ScrollTop {
+  background: #2196f3;
+  color: #fff;
+  border: 2px solid #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 999;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  height: 40px;
+  width: 40px;
+  line-height: 34px;
+  display: none;
+  cursor: pointer;
+}
+
+/** Start The Scroll Top **/
+
+/*# sourceMappingURL=Website.css.map */
